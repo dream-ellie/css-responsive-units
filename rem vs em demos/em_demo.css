@@ -1,0 +1,18 @@
+h1 {
+  display: inline-block;
+  font-size: 5em;
+  background-color: mediumaquamarine;
+  padding: 1em;
+}
+
+@media screen and (max-width: 780px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}

@@ -1,0 +1,33 @@
+h1 {
+  font-size: 28px;
+  color: burlywood;
+  margin: auto;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  padding: 32px;
+}
+
+.component {
+  border: 1px solid burlywood;
+  margin: 16px;
+}
+
+.title {
+  font-size: 24px;
+  padding: 16px;
+  background-color: burlywood;
+}
+
+.contents {
+  font-size: 18px;
+  padding: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
